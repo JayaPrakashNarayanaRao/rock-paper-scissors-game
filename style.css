@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Roboto,arial;
+}
+
+.container {
+  margin-left: 37%;
+  margin-top: 5%;
+}
+
+.title {
+  color: transparent;
+  background: linear-gradient(to right, #5A4D41,#dde5e3,#ffffff);
+  background-clip: text;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+#rock {
+  background: linear-gradient(to right, #5A4D41,#7B7167);
+  background-clip: text;
+}
+
+#paper {
+  background-color: hsl(167, 8%, 77%);
+  background-clip: text;
+}
+
+#scissors {
+  background: linear-gradient(to right, #ffffff, hsl(206, 52%, 59%));
+  background-clip: text;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.score-container {
+  margin-left: 10%;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 6%;
+}
+
+.moves {
+  font-size: 40px;
+  margin-left: -9%;
+}
+
+.moves .move-icon{
+  height: 60px;
+}
+
+.score {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: -1%;
+  font-size: 20px;
+}
+
+.reset-score-button {
+  margin-left: 9%;
+}
+
+.reset-score-button,
+.auto-play-button,
+.reset-confirm-button {
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.reset-confirm-button {
+  margin-left: 10px;
+}
+
+.yes,.no {
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.yes {
+  background-color: green;
+}
+.no {
+  background-color: darkred;
+}
