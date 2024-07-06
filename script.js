@@ -153,7 +153,7 @@ document.querySelector('.js-reset-score-button')
 function showResetConfirmation() {
   document.querySelector('.js-reset-confirmation')
     .innerHTML = `
-      Are you sure you want to reset the score?
+      <p class="reset-dialouge">Are you sure you want to reset your score?</p>
       <button class="js-reset-confirm-yes reset-confirm-button yes">
         Yes
       </button>
